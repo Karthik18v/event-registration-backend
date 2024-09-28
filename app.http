@@ -1,0 +1,23 @@
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+    "name":"Music Concert",
+    "description":"Music Concert By Anirudh",
+    "date":"22/09/2024"
+}
+
+###
+GET http://localhost:3000/events/
+
+###
+POST http://localhost:3000/events/c5025290-df8e-4aca-a559-8b2bfa17b404/register 
+Content-Type: application/json
+
+{
+    "name":"Karthik",
+    "email":"Kasffjnd123@gmail.com"
+}
+
+###
+GET http://localhost:3000/events/c5025290-df8e-4aca-a559-8b2bfa17b404/register 
